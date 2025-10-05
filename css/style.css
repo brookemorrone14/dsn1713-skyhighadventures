@@ -1,11 +1,16 @@
+
 .logo{
-  max-width: 5rem;
+  max-width: 100px;
 }
 
 .profile{
-  max-width: 4rem;
+  max-width: 70px;
 }
 
-.icon{
-  max-width: 4rem;
+.hamburger{
+  max-width: 70px;
+}
+
+.service{
+  max-width: 70px;
 }
