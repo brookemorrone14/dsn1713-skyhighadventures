@@ -6,15 +6,15 @@
     <title>SkyHigh Adventures</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="css/style.css">
   </head>
 
   <!-- *** leave space here to not get confused between header and body *** -->
   
   <body>
-    <div class="d-none d-lg-block m-0 p-4 bg-black">
-      <nav class="d-flex align-items-center justify-content-between gap-3">
+    <div class="d-none d-lg-block m-0 p-2 bg-black">
+      <nav class="navbar d-flex align-items-center justify-content-between gap-3">
         <img class="logo" src="images/logo.png" alt="sky high adventures logo">
 
         <ul class="m-0 d-flex align-items-center gap-4">
@@ -36,38 +36,74 @@
 
 <!-- THIS IS BETWEEN DESKTOP AND TABLET -->
 
-     <div class="d-block d-lg-none d-none d-md-block m-0 p-4 bg-black">
-      <nav class="d-flex align-items-center justify-content-between gap-3">
-        <img class="logo" src="images/logo.png" alt="sky high adventures logo">
-
-        <ul class="m-0 d-flex align-items-center gap-4">
-          <li class="btn btn-lg m-0 btn-outline-light">Home</li>
-          <li class="btn btn-lg m-0 btn-outline-light">Adventures</li>
-          <li class="btn btn-lg m-0 btn-light">Book Now</li>
-        </ul>
-
-        <div class="m-0">
+     <div class="d-block d-lg-none d-none d-md-block m-0 p-2 bg-black">
+      <nav class="navbar navbar-expand-lg bg-black">
+        <div class="container-fluid">
+          <img class="logo" src="images/logo.png" alt="sky high adventures logo">
+          <ul class="m-0 d-flex align-items-center gap-4">
+            <li class="btn btn-lg m-0 btn-outline-light">Home</li>
+            <li class="btn btn-lg m-0 btn-outline-light">Adventures</li>
+            <li class="btn btn-lg m-0 btn-light">Book Now</li>
+          </ul>
           <img class="profile" src="images/profile.png" alt="profile icon">
 
-          <img class="hamburger" src="images/hamburger menu.png" alt="hamburger menu">
+          <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse mt-4" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active text-white p-2" aria-current="page" href="#">Deals</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-white p-2" aria-current="page" href="#">Blogs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-white p-2" aria-current="page" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-white p-2" aria-current="page" href="#">Contact</a>
+              </li>
+          </div>
         </div>
       </nav>
     </div>
 
 <!-- THIS IS BETWEEN TABLET AND MOBILE -->
 
-    <div class=" d-sm-block d-block d-md-none m-0 p-4 bg-black">
-       <nav class="d-block d-md-none d-flex align-items-center justify-content-between gap-3">
-        <img class="logo" src="images/logo.png" alt="sky high adventures logo">
-
-        <ul class="m-0 d-flex align-items-center gap-4">
-          <li class="btn btn-lg m-0 btn-light">Book Now</li>
+    <div class=" d-sm-block d-block d-md-none m-0 p-2 bg-black">
+      <nav class="navbar navbar-expand-lg bg-black">
+        <div class="container-fluid">
+          <img class="logo" src="images/logo.png" alt="sky high adventures logo">
+          <ul class="m-0 d-flex align-items-center gap-4">
+            <li class="btn btn-lg m-0 btn-light">Book Now</li>
           </ul>
+          <img class="profile" src="images/profile.png" alt="profile icon">
 
-        <div class="m-0">
-            <img class="profile" src="images/profile.png" alt="profile icon">
-
-          <img class="hamburger" src="images/hamburger menu.png" alt="hamburger menu">
+          <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse mt-4" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active text-white p-2" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-white p-2" aria-current="page" href="#">Adventures</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-white p-2" aria-current="page" href="#">Deals</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-white p-2" aria-current="page" href="#">Blogs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-white p-2" aria-current="page" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-white p-2" aria-current="page" href="#">Contact</a>
+              </li>
+          </div>
         </div>
       </nav>
     </div>
