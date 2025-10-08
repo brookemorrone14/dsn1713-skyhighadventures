@@ -1,3 +1,4 @@
+/* **** NAV STUFF **** */
 
 .logo{
   max-width: 70px;
@@ -14,6 +15,8 @@
 .service{
   max-width: 50px;
 }
+
+/* **** HERO STUFF ***** */
 
 .squares{
   max-height: 12rem;
