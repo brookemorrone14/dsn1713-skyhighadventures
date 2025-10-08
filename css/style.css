@@ -14,3 +14,7 @@
 .service{
   max-width: 50px;
 }
+
+.squares{
+  max-height: 12rem;
+}
